@@ -1,0 +1,2046 @@
+{
+  "metadata": {
+    "district_name": "กะปง",
+    "district_name_thai": "กะปง",
+    "province_name": "พังงา",
+    "province_name_thai": "พังงา",
+    "data_type": "PM2.5 Daily Measurements",
+    "total_measurements": 366,
+    "data_source": "Interpolated daily PM2.5 measurements",
+    "measurement_period": "365 days of daily data",
+    "air_quality_standards": {
+      "Good": "≤ 25 µg/m³",
+      "Moderate": "26-37 µg/m³",
+      "Unhealthy for Sensitive Groups": "38-50 µg/m³",
+      "Unhealthy": "51-90 µg/m³",
+      "Very Unhealthy": "> 90 µg/m³"
+    },
+    "units": "µg/m³",
+    "file_size_kb": "Approximately 20-25 KB per district",
+    "generated_date": "2025-08-03 22:42:16"
+  },
+  "district_data": {
+    "district_name": "กะปง",
+    "district_name_thai": "กะปง",
+    "province_name": "พังงา",
+    "province_name_thai": "พังงา",
+    "overall_statistics": {
+      "total_measurements": 366,
+      "average_pm25": 17.58,
+      "median_pm25": 15.11,
+      "standard_deviation": 5.81,
+      "minimum_pm25": 10.17,
+      "maximum_pm25": 32.5,
+      "air_quality_rating": "Good"
+    },
+    "monthly_data": [
+      {
+        "month": 1,
+        "month_name": "January",
+        "total_days": 31,
+        "average_pm25": 25.28,
+        "min_pm25": 19.56,
+        "max_pm25": 30.69,
+        "daily_measurements": [
+          {
+            "day": 1,
+            "pm25": 19.56,
+            "air_quality": "Good"
+          },
+          {
+            "day": 2,
+            "pm25": 19.71,
+            "air_quality": "Good"
+          },
+          {
+            "day": 3,
+            "pm25": 20.56,
+            "air_quality": "Good"
+          },
+          {
+            "day": 4,
+            "pm25": 20.82,
+            "air_quality": "Good"
+          },
+          {
+            "day": 5,
+            "pm25": 22.84,
+            "air_quality": "Good"
+          },
+          {
+            "day": 6,
+            "pm25": 23.84,
+            "air_quality": "Good"
+          },
+          {
+            "day": 7,
+            "pm25": 24.42,
+            "air_quality": "Good"
+          },
+          {
+            "day": 8,
+            "pm25": 23.5,
+            "air_quality": "Good"
+          },
+          {
+            "day": 9,
+            "pm25": 25.39,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 10,
+            "pm25": 28.03,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 11,
+            "pm25": 24.39,
+            "air_quality": "Good"
+          },
+          {
+            "day": 12,
+            "pm25": 23.87,
+            "air_quality": "Good"
+          },
+          {
+            "day": 13,
+            "pm25": 24.69,
+            "air_quality": "Good"
+          },
+          {
+            "day": 14,
+            "pm25": 25.9,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 15,
+            "pm25": 27.45,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 16,
+            "pm25": 27.9,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 17,
+            "pm25": 28.64,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 18,
+            "pm25": 29.16,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 19,
+            "pm25": 28.2,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 20,
+            "pm25": 30.25,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 21,
+            "pm25": 28.73,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 22,
+            "pm25": 28.95,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 23,
+            "pm25": 27.0,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 24,
+            "pm25": 23.4,
+            "air_quality": "Good"
+          },
+          {
+            "day": 25,
+            "pm25": 19.56,
+            "air_quality": "Good"
+          },
+          {
+            "day": 26,
+            "pm25": 22.56,
+            "air_quality": "Good"
+          },
+          {
+            "day": 27,
+            "pm25": 26.3,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 28,
+            "pm25": 25.09,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 29,
+            "pm25": 24.56,
+            "air_quality": "Good"
+          },
+          {
+            "day": 30,
+            "pm25": 27.87,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 31,
+            "pm25": 30.69,
+            "air_quality": "Moderate"
+          }
+        ]
+      },
+      {
+        "month": 2,
+        "month_name": "February",
+        "total_days": 29,
+        "average_pm25": 25.88,
+        "min_pm25": 22.04,
+        "max_pm25": 32.5,
+        "daily_measurements": [
+          {
+            "day": 1,
+            "pm25": 32.5,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 2,
+            "pm25": 30.42,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 3,
+            "pm25": 27.77,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 4,
+            "pm25": 25.9,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 5,
+            "pm25": 24.62,
+            "air_quality": "Good"
+          },
+          {
+            "day": 6,
+            "pm25": 24.43,
+            "air_quality": "Good"
+          },
+          {
+            "day": 7,
+            "pm25": 26.07,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 8,
+            "pm25": 26.32,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 9,
+            "pm25": 23.09,
+            "air_quality": "Good"
+          },
+          {
+            "day": 10,
+            "pm25": 22.04,
+            "air_quality": "Good"
+          },
+          {
+            "day": 11,
+            "pm25": 22.35,
+            "air_quality": "Good"
+          },
+          {
+            "day": 12,
+            "pm25": 23.75,
+            "air_quality": "Good"
+          },
+          {
+            "day": 13,
+            "pm25": 23.93,
+            "air_quality": "Good"
+          },
+          {
+            "day": 14,
+            "pm25": 24.7,
+            "air_quality": "Good"
+          },
+          {
+            "day": 15,
+            "pm25": 23.56,
+            "air_quality": "Good"
+          },
+          {
+            "day": 16,
+            "pm25": 22.77,
+            "air_quality": "Good"
+          },
+          {
+            "day": 17,
+            "pm25": 23.8,
+            "air_quality": "Good"
+          },
+          {
+            "day": 18,
+            "pm25": 23.37,
+            "air_quality": "Good"
+          },
+          {
+            "day": 19,
+            "pm25": 24.43,
+            "air_quality": "Good"
+          },
+          {
+            "day": 20,
+            "pm25": 24.31,
+            "air_quality": "Good"
+          },
+          {
+            "day": 21,
+            "pm25": 24.6,
+            "air_quality": "Good"
+          },
+          {
+            "day": 22,
+            "pm25": 25.6,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 23,
+            "pm25": 27.4,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 24,
+            "pm25": 29.54,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 25,
+            "pm25": 29.34,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 26,
+            "pm25": 28.49,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 27,
+            "pm25": 30.82,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 28,
+            "pm25": 31.71,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 29,
+            "pm25": 22.98,
+            "air_quality": "Good"
+          }
+        ]
+      },
+      {
+        "month": 3,
+        "month_name": "March",
+        "total_days": 31,
+        "average_pm25": 24.32,
+        "min_pm25": 19.79,
+        "max_pm25": 29.92,
+        "daily_measurements": [
+          {
+            "day": 1,
+            "pm25": 29.89,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 2,
+            "pm25": 27.14,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 3,
+            "pm25": 22.99,
+            "air_quality": "Good"
+          },
+          {
+            "day": 4,
+            "pm25": 23.94,
+            "air_quality": "Good"
+          },
+          {
+            "day": 5,
+            "pm25": 24.14,
+            "air_quality": "Good"
+          },
+          {
+            "day": 6,
+            "pm25": 25.58,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 7,
+            "pm25": 28.29,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 8,
+            "pm25": 27.86,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 9,
+            "pm25": 27.13,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 10,
+            "pm25": 28.05,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 11,
+            "pm25": 29.92,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 12,
+            "pm25": 29.7,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 13,
+            "pm25": 28.86,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 14,
+            "pm25": 25.56,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 15,
+            "pm25": 25.22,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 16,
+            "pm25": 24.01,
+            "air_quality": "Good"
+          },
+          {
+            "day": 17,
+            "pm25": 23.48,
+            "air_quality": "Good"
+          },
+          {
+            "day": 18,
+            "pm25": 24.81,
+            "air_quality": "Good"
+          },
+          {
+            "day": 19,
+            "pm25": 24.46,
+            "air_quality": "Good"
+          },
+          {
+            "day": 20,
+            "pm25": 22.28,
+            "air_quality": "Good"
+          },
+          {
+            "day": 21,
+            "pm25": 21.0,
+            "air_quality": "Good"
+          },
+          {
+            "day": 22,
+            "pm25": 21.91,
+            "air_quality": "Good"
+          },
+          {
+            "day": 23,
+            "pm25": 21.0,
+            "air_quality": "Good"
+          },
+          {
+            "day": 24,
+            "pm25": 21.98,
+            "air_quality": "Good"
+          },
+          {
+            "day": 25,
+            "pm25": 21.53,
+            "air_quality": "Good"
+          },
+          {
+            "day": 26,
+            "pm25": 19.79,
+            "air_quality": "Good"
+          },
+          {
+            "day": 27,
+            "pm25": 19.99,
+            "air_quality": "Good"
+          },
+          {
+            "day": 28,
+            "pm25": 20.27,
+            "air_quality": "Good"
+          },
+          {
+            "day": 29,
+            "pm25": 20.16,
+            "air_quality": "Good"
+          },
+          {
+            "day": 30,
+            "pm25": 20.43,
+            "air_quality": "Good"
+          },
+          {
+            "day": 31,
+            "pm25": 22.52,
+            "air_quality": "Good"
+          }
+        ]
+      },
+      {
+        "month": 4,
+        "month_name": "April",
+        "total_days": 30,
+        "average_pm25": 23.0,
+        "min_pm25": 17.52,
+        "max_pm25": 28.1,
+        "daily_measurements": [
+          {
+            "day": 1,
+            "pm25": 21.82,
+            "air_quality": "Good"
+          },
+          {
+            "day": 2,
+            "pm25": 21.63,
+            "air_quality": "Good"
+          },
+          {
+            "day": 3,
+            "pm25": 21.43,
+            "air_quality": "Good"
+          },
+          {
+            "day": 4,
+            "pm25": 22.28,
+            "air_quality": "Good"
+          },
+          {
+            "day": 5,
+            "pm25": 24.26,
+            "air_quality": "Good"
+          },
+          {
+            "day": 6,
+            "pm25": 24.89,
+            "air_quality": "Good"
+          },
+          {
+            "day": 7,
+            "pm25": 24.2,
+            "air_quality": "Good"
+          },
+          {
+            "day": 8,
+            "pm25": 23.99,
+            "air_quality": "Good"
+          },
+          {
+            "day": 9,
+            "pm25": 23.59,
+            "air_quality": "Good"
+          },
+          {
+            "day": 10,
+            "pm25": 24.34,
+            "air_quality": "Good"
+          },
+          {
+            "day": 11,
+            "pm25": 28.1,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 12,
+            "pm25": 27.79,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 13,
+            "pm25": 26.75,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 14,
+            "pm25": 27.57,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 15,
+            "pm25": 27.82,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 16,
+            "pm25": 25.38,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 17,
+            "pm25": 25.05,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 18,
+            "pm25": 23.85,
+            "air_quality": "Good"
+          },
+          {
+            "day": 19,
+            "pm25": 23.58,
+            "air_quality": "Good"
+          },
+          {
+            "day": 20,
+            "pm25": 24.17,
+            "air_quality": "Good"
+          },
+          {
+            "day": 21,
+            "pm25": 24.11,
+            "air_quality": "Good"
+          },
+          {
+            "day": 22,
+            "pm25": 23.36,
+            "air_quality": "Good"
+          },
+          {
+            "day": 23,
+            "pm25": 20.82,
+            "air_quality": "Good"
+          },
+          {
+            "day": 24,
+            "pm25": 18.88,
+            "air_quality": "Good"
+          },
+          {
+            "day": 25,
+            "pm25": 18.01,
+            "air_quality": "Good"
+          },
+          {
+            "day": 26,
+            "pm25": 17.52,
+            "air_quality": "Good"
+          },
+          {
+            "day": 27,
+            "pm25": 18.31,
+            "air_quality": "Good"
+          },
+          {
+            "day": 28,
+            "pm25": 18.98,
+            "air_quality": "Good"
+          },
+          {
+            "day": 29,
+            "pm25": 18.64,
+            "air_quality": "Good"
+          },
+          {
+            "day": 30,
+            "pm25": 18.88,
+            "air_quality": "Good"
+          }
+        ]
+      },
+      {
+        "month": 5,
+        "month_name": "May",
+        "total_days": 31,
+        "average_pm25": 15.4,
+        "min_pm25": 12.89,
+        "max_pm25": 20.13,
+        "daily_measurements": [
+          {
+            "day": 1,
+            "pm25": 20.13,
+            "air_quality": "Good"
+          },
+          {
+            "day": 2,
+            "pm25": 19.53,
+            "air_quality": "Good"
+          },
+          {
+            "day": 3,
+            "pm25": 18.67,
+            "air_quality": "Good"
+          },
+          {
+            "day": 4,
+            "pm25": 18.46,
+            "air_quality": "Good"
+          },
+          {
+            "day": 5,
+            "pm25": 20.08,
+            "air_quality": "Good"
+          },
+          {
+            "day": 6,
+            "pm25": 18.07,
+            "air_quality": "Good"
+          },
+          {
+            "day": 7,
+            "pm25": 15.85,
+            "air_quality": "Good"
+          },
+          {
+            "day": 8,
+            "pm25": 15.08,
+            "air_quality": "Good"
+          },
+          {
+            "day": 9,
+            "pm25": 14.38,
+            "air_quality": "Good"
+          },
+          {
+            "day": 10,
+            "pm25": 14.05,
+            "air_quality": "Good"
+          },
+          {
+            "day": 11,
+            "pm25": 14.19,
+            "air_quality": "Good"
+          },
+          {
+            "day": 12,
+            "pm25": 14.99,
+            "air_quality": "Good"
+          },
+          {
+            "day": 13,
+            "pm25": 14.92,
+            "air_quality": "Good"
+          },
+          {
+            "day": 14,
+            "pm25": 14.85,
+            "air_quality": "Good"
+          },
+          {
+            "day": 15,
+            "pm25": 16.14,
+            "air_quality": "Good"
+          },
+          {
+            "day": 16,
+            "pm25": 15.88,
+            "air_quality": "Good"
+          },
+          {
+            "day": 17,
+            "pm25": 14.32,
+            "air_quality": "Good"
+          },
+          {
+            "day": 18,
+            "pm25": 13.7,
+            "air_quality": "Good"
+          },
+          {
+            "day": 19,
+            "pm25": 14.21,
+            "air_quality": "Good"
+          },
+          {
+            "day": 20,
+            "pm25": 13.7,
+            "air_quality": "Good"
+          },
+          {
+            "day": 21,
+            "pm25": 14.71,
+            "air_quality": "Good"
+          },
+          {
+            "day": 22,
+            "pm25": 14.34,
+            "air_quality": "Good"
+          },
+          {
+            "day": 23,
+            "pm25": 14.57,
+            "air_quality": "Good"
+          },
+          {
+            "day": 24,
+            "pm25": 15.43,
+            "air_quality": "Good"
+          },
+          {
+            "day": 25,
+            "pm25": 14.86,
+            "air_quality": "Good"
+          },
+          {
+            "day": 26,
+            "pm25": 14.74,
+            "air_quality": "Good"
+          },
+          {
+            "day": 27,
+            "pm25": 14.37,
+            "air_quality": "Good"
+          },
+          {
+            "day": 28,
+            "pm25": 13.58,
+            "air_quality": "Good"
+          },
+          {
+            "day": 29,
+            "pm25": 13.51,
+            "air_quality": "Good"
+          },
+          {
+            "day": 30,
+            "pm25": 12.89,
+            "air_quality": "Good"
+          },
+          {
+            "day": 31,
+            "pm25": 13.05,
+            "air_quality": "Good"
+          }
+        ]
+      },
+      {
+        "month": 6,
+        "month_name": "June",
+        "total_days": 30,
+        "average_pm25": 12.38,
+        "min_pm25": 11.33,
+        "max_pm25": 13.63,
+        "daily_measurements": [
+          {
+            "day": 1,
+            "pm25": 12.98,
+            "air_quality": "Good"
+          },
+          {
+            "day": 2,
+            "pm25": 12.49,
+            "air_quality": "Good"
+          },
+          {
+            "day": 3,
+            "pm25": 12.5,
+            "air_quality": "Good"
+          },
+          {
+            "day": 4,
+            "pm25": 12.3,
+            "air_quality": "Good"
+          },
+          {
+            "day": 5,
+            "pm25": 12.4,
+            "air_quality": "Good"
+          },
+          {
+            "day": 6,
+            "pm25": 11.9,
+            "air_quality": "Good"
+          },
+          {
+            "day": 7,
+            "pm25": 11.86,
+            "air_quality": "Good"
+          },
+          {
+            "day": 8,
+            "pm25": 12.51,
+            "air_quality": "Good"
+          },
+          {
+            "day": 9,
+            "pm25": 12.34,
+            "air_quality": "Good"
+          },
+          {
+            "day": 10,
+            "pm25": 11.33,
+            "air_quality": "Good"
+          },
+          {
+            "day": 11,
+            "pm25": 12.67,
+            "air_quality": "Good"
+          },
+          {
+            "day": 12,
+            "pm25": 12.57,
+            "air_quality": "Good"
+          },
+          {
+            "day": 13,
+            "pm25": 13.06,
+            "air_quality": "Good"
+          },
+          {
+            "day": 14,
+            "pm25": 12.32,
+            "air_quality": "Good"
+          },
+          {
+            "day": 15,
+            "pm25": 12.36,
+            "air_quality": "Good"
+          },
+          {
+            "day": 16,
+            "pm25": 12.45,
+            "air_quality": "Good"
+          },
+          {
+            "day": 17,
+            "pm25": 12.27,
+            "air_quality": "Good"
+          },
+          {
+            "day": 18,
+            "pm25": 12.29,
+            "air_quality": "Good"
+          },
+          {
+            "day": 19,
+            "pm25": 12.58,
+            "air_quality": "Good"
+          },
+          {
+            "day": 20,
+            "pm25": 12.61,
+            "air_quality": "Good"
+          },
+          {
+            "day": 21,
+            "pm25": 12.84,
+            "air_quality": "Good"
+          },
+          {
+            "day": 22,
+            "pm25": 13.63,
+            "air_quality": "Good"
+          },
+          {
+            "day": 23,
+            "pm25": 12.87,
+            "air_quality": "Good"
+          },
+          {
+            "day": 24,
+            "pm25": 11.84,
+            "air_quality": "Good"
+          },
+          {
+            "day": 25,
+            "pm25": 11.87,
+            "air_quality": "Good"
+          },
+          {
+            "day": 26,
+            "pm25": 11.73,
+            "air_quality": "Good"
+          },
+          {
+            "day": 27,
+            "pm25": 12.19,
+            "air_quality": "Good"
+          },
+          {
+            "day": 28,
+            "pm25": 12.17,
+            "air_quality": "Good"
+          },
+          {
+            "day": 29,
+            "pm25": 12.35,
+            "air_quality": "Good"
+          },
+          {
+            "day": 30,
+            "pm25": 12.17,
+            "air_quality": "Good"
+          }
+        ]
+      },
+      {
+        "month": 7,
+        "month_name": "July",
+        "total_days": 31,
+        "average_pm25": 12.32,
+        "min_pm25": 10.17,
+        "max_pm25": 13.65,
+        "daily_measurements": [
+          {
+            "day": 1,
+            "pm25": 12.19,
+            "air_quality": "Good"
+          },
+          {
+            "day": 2,
+            "pm25": 11.56,
+            "air_quality": "Good"
+          },
+          {
+            "day": 3,
+            "pm25": 12.37,
+            "air_quality": "Good"
+          },
+          {
+            "day": 4,
+            "pm25": 12.98,
+            "air_quality": "Good"
+          },
+          {
+            "day": 5,
+            "pm25": 12.48,
+            "air_quality": "Good"
+          },
+          {
+            "day": 6,
+            "pm25": 11.97,
+            "air_quality": "Good"
+          },
+          {
+            "day": 7,
+            "pm25": 12.09,
+            "air_quality": "Good"
+          },
+          {
+            "day": 8,
+            "pm25": 11.6,
+            "air_quality": "Good"
+          },
+          {
+            "day": 9,
+            "pm25": 11.12,
+            "air_quality": "Good"
+          },
+          {
+            "day": 10,
+            "pm25": 10.46,
+            "air_quality": "Good"
+          },
+          {
+            "day": 11,
+            "pm25": 10.17,
+            "air_quality": "Good"
+          },
+          {
+            "day": 12,
+            "pm25": 10.88,
+            "air_quality": "Good"
+          },
+          {
+            "day": 13,
+            "pm25": 12.46,
+            "air_quality": "Good"
+          },
+          {
+            "day": 14,
+            "pm25": 12.84,
+            "air_quality": "Good"
+          },
+          {
+            "day": 15,
+            "pm25": 12.89,
+            "air_quality": "Good"
+          },
+          {
+            "day": 16,
+            "pm25": 12.57,
+            "air_quality": "Good"
+          },
+          {
+            "day": 17,
+            "pm25": 12.81,
+            "air_quality": "Good"
+          },
+          {
+            "day": 18,
+            "pm25": 13.12,
+            "air_quality": "Good"
+          },
+          {
+            "day": 19,
+            "pm25": 12.6,
+            "air_quality": "Good"
+          },
+          {
+            "day": 20,
+            "pm25": 12.8,
+            "air_quality": "Good"
+          },
+          {
+            "day": 21,
+            "pm25": 12.63,
+            "air_quality": "Good"
+          },
+          {
+            "day": 22,
+            "pm25": 12.71,
+            "air_quality": "Good"
+          },
+          {
+            "day": 23,
+            "pm25": 12.8,
+            "air_quality": "Good"
+          },
+          {
+            "day": 24,
+            "pm25": 13.22,
+            "air_quality": "Good"
+          },
+          {
+            "day": 25,
+            "pm25": 13.04,
+            "air_quality": "Good"
+          },
+          {
+            "day": 26,
+            "pm25": 13.65,
+            "air_quality": "Good"
+          },
+          {
+            "day": 27,
+            "pm25": 13.57,
+            "air_quality": "Good"
+          },
+          {
+            "day": 28,
+            "pm25": 12.88,
+            "air_quality": "Good"
+          },
+          {
+            "day": 29,
+            "pm25": 11.95,
+            "air_quality": "Good"
+          },
+          {
+            "day": 30,
+            "pm25": 11.75,
+            "air_quality": "Good"
+          },
+          {
+            "day": 31,
+            "pm25": 11.81,
+            "air_quality": "Good"
+          }
+        ]
+      },
+      {
+        "month": 8,
+        "month_name": "August",
+        "total_days": 31,
+        "average_pm25": 12.1,
+        "min_pm25": 11.01,
+        "max_pm25": 13.22,
+        "daily_measurements": [
+          {
+            "day": 1,
+            "pm25": 11.67,
+            "air_quality": "Good"
+          },
+          {
+            "day": 2,
+            "pm25": 11.99,
+            "air_quality": "Good"
+          },
+          {
+            "day": 3,
+            "pm25": 12.64,
+            "air_quality": "Good"
+          },
+          {
+            "day": 4,
+            "pm25": 12.04,
+            "air_quality": "Good"
+          },
+          {
+            "day": 5,
+            "pm25": 12.86,
+            "air_quality": "Good"
+          },
+          {
+            "day": 6,
+            "pm25": 13.21,
+            "air_quality": "Good"
+          },
+          {
+            "day": 7,
+            "pm25": 12.58,
+            "air_quality": "Good"
+          },
+          {
+            "day": 8,
+            "pm25": 12.79,
+            "air_quality": "Good"
+          },
+          {
+            "day": 9,
+            "pm25": 12.22,
+            "air_quality": "Good"
+          },
+          {
+            "day": 10,
+            "pm25": 11.03,
+            "air_quality": "Good"
+          },
+          {
+            "day": 11,
+            "pm25": 11.25,
+            "air_quality": "Good"
+          },
+          {
+            "day": 12,
+            "pm25": 11.01,
+            "air_quality": "Good"
+          },
+          {
+            "day": 13,
+            "pm25": 11.27,
+            "air_quality": "Good"
+          },
+          {
+            "day": 14,
+            "pm25": 12.24,
+            "air_quality": "Good"
+          },
+          {
+            "day": 15,
+            "pm25": 11.9,
+            "air_quality": "Good"
+          },
+          {
+            "day": 16,
+            "pm25": 11.82,
+            "air_quality": "Good"
+          },
+          {
+            "day": 17,
+            "pm25": 11.95,
+            "air_quality": "Good"
+          },
+          {
+            "day": 18,
+            "pm25": 12.62,
+            "air_quality": "Good"
+          },
+          {
+            "day": 19,
+            "pm25": 13.12,
+            "air_quality": "Good"
+          },
+          {
+            "day": 20,
+            "pm25": 13.22,
+            "air_quality": "Good"
+          },
+          {
+            "day": 21,
+            "pm25": 12.53,
+            "air_quality": "Good"
+          },
+          {
+            "day": 22,
+            "pm25": 11.96,
+            "air_quality": "Good"
+          },
+          {
+            "day": 23,
+            "pm25": 11.41,
+            "air_quality": "Good"
+          },
+          {
+            "day": 24,
+            "pm25": 12.17,
+            "air_quality": "Good"
+          },
+          {
+            "day": 25,
+            "pm25": 11.75,
+            "air_quality": "Good"
+          },
+          {
+            "day": 26,
+            "pm25": 11.41,
+            "air_quality": "Good"
+          },
+          {
+            "day": 27,
+            "pm25": 11.25,
+            "air_quality": "Good"
+          },
+          {
+            "day": 28,
+            "pm25": 11.36,
+            "air_quality": "Good"
+          },
+          {
+            "day": 29,
+            "pm25": 11.88,
+            "air_quality": "Good"
+          },
+          {
+            "day": 30,
+            "pm25": 12.9,
+            "air_quality": "Good"
+          },
+          {
+            "day": 31,
+            "pm25": 12.99,
+            "air_quality": "Good"
+          }
+        ]
+      },
+      {
+        "month": 9,
+        "month_name": "September",
+        "total_days": 30,
+        "average_pm25": 11.91,
+        "min_pm25": 10.96,
+        "max_pm25": 13.81,
+        "daily_measurements": [
+          {
+            "day": 1,
+            "pm25": 12.45,
+            "air_quality": "Good"
+          },
+          {
+            "day": 2,
+            "pm25": 12.62,
+            "air_quality": "Good"
+          },
+          {
+            "day": 3,
+            "pm25": 11.62,
+            "air_quality": "Good"
+          },
+          {
+            "day": 4,
+            "pm25": 11.2,
+            "air_quality": "Good"
+          },
+          {
+            "day": 5,
+            "pm25": 10.96,
+            "air_quality": "Good"
+          },
+          {
+            "day": 6,
+            "pm25": 11.62,
+            "air_quality": "Good"
+          },
+          {
+            "day": 7,
+            "pm25": 11.94,
+            "air_quality": "Good"
+          },
+          {
+            "day": 8,
+            "pm25": 11.52,
+            "air_quality": "Good"
+          },
+          {
+            "day": 9,
+            "pm25": 11.38,
+            "air_quality": "Good"
+          },
+          {
+            "day": 10,
+            "pm25": 11.21,
+            "air_quality": "Good"
+          },
+          {
+            "day": 11,
+            "pm25": 11.59,
+            "air_quality": "Good"
+          },
+          {
+            "day": 12,
+            "pm25": 12.4,
+            "air_quality": "Good"
+          },
+          {
+            "day": 13,
+            "pm25": 12.91,
+            "air_quality": "Good"
+          },
+          {
+            "day": 14,
+            "pm25": 12.41,
+            "air_quality": "Good"
+          },
+          {
+            "day": 15,
+            "pm25": 11.39,
+            "air_quality": "Good"
+          },
+          {
+            "day": 16,
+            "pm25": 11.51,
+            "air_quality": "Good"
+          },
+          {
+            "day": 17,
+            "pm25": 11.74,
+            "air_quality": "Good"
+          },
+          {
+            "day": 18,
+            "pm25": 12.03,
+            "air_quality": "Good"
+          },
+          {
+            "day": 19,
+            "pm25": 11.35,
+            "air_quality": "Good"
+          },
+          {
+            "day": 20,
+            "pm25": 11.44,
+            "air_quality": "Good"
+          },
+          {
+            "day": 21,
+            "pm25": 12.02,
+            "air_quality": "Good"
+          },
+          {
+            "day": 22,
+            "pm25": 11.73,
+            "air_quality": "Good"
+          },
+          {
+            "day": 23,
+            "pm25": 12.69,
+            "air_quality": "Good"
+          },
+          {
+            "day": 24,
+            "pm25": 11.92,
+            "air_quality": "Good"
+          },
+          {
+            "day": 25,
+            "pm25": 11.64,
+            "air_quality": "Good"
+          },
+          {
+            "day": 26,
+            "pm25": 11.41,
+            "air_quality": "Good"
+          },
+          {
+            "day": 27,
+            "pm25": 11.59,
+            "air_quality": "Good"
+          },
+          {
+            "day": 28,
+            "pm25": 11.75,
+            "air_quality": "Good"
+          },
+          {
+            "day": 29,
+            "pm25": 13.81,
+            "air_quality": "Good"
+          },
+          {
+            "day": 30,
+            "pm25": 13.5,
+            "air_quality": "Good"
+          }
+        ]
+      },
+      {
+        "month": 10,
+        "month_name": "October",
+        "total_days": 31,
+        "average_pm25": 13.57,
+        "min_pm25": 11.44,
+        "max_pm25": 15.79,
+        "daily_measurements": [
+          {
+            "day": 1,
+            "pm25": 12.27,
+            "air_quality": "Good"
+          },
+          {
+            "day": 2,
+            "pm25": 12.34,
+            "air_quality": "Good"
+          },
+          {
+            "day": 3,
+            "pm25": 11.6,
+            "air_quality": "Good"
+          },
+          {
+            "day": 4,
+            "pm25": 11.44,
+            "air_quality": "Good"
+          },
+          {
+            "day": 5,
+            "pm25": 13.0,
+            "air_quality": "Good"
+          },
+          {
+            "day": 6,
+            "pm25": 12.95,
+            "air_quality": "Good"
+          },
+          {
+            "day": 7,
+            "pm25": 12.57,
+            "air_quality": "Good"
+          },
+          {
+            "day": 8,
+            "pm25": 13.21,
+            "air_quality": "Good"
+          },
+          {
+            "day": 9,
+            "pm25": 13.41,
+            "air_quality": "Good"
+          },
+          {
+            "day": 10,
+            "pm25": 13.1,
+            "air_quality": "Good"
+          },
+          {
+            "day": 11,
+            "pm25": 12.47,
+            "air_quality": "Good"
+          },
+          {
+            "day": 12,
+            "pm25": 13.45,
+            "air_quality": "Good"
+          },
+          {
+            "day": 13,
+            "pm25": 13.08,
+            "air_quality": "Good"
+          },
+          {
+            "day": 14,
+            "pm25": 13.57,
+            "air_quality": "Good"
+          },
+          {
+            "day": 15,
+            "pm25": 13.49,
+            "air_quality": "Good"
+          },
+          {
+            "day": 16,
+            "pm25": 13.19,
+            "air_quality": "Good"
+          },
+          {
+            "day": 17,
+            "pm25": 13.52,
+            "air_quality": "Good"
+          },
+          {
+            "day": 18,
+            "pm25": 14.32,
+            "air_quality": "Good"
+          },
+          {
+            "day": 19,
+            "pm25": 14.71,
+            "air_quality": "Good"
+          },
+          {
+            "day": 20,
+            "pm25": 15.08,
+            "air_quality": "Good"
+          },
+          {
+            "day": 21,
+            "pm25": 13.86,
+            "air_quality": "Good"
+          },
+          {
+            "day": 22,
+            "pm25": 13.17,
+            "air_quality": "Good"
+          },
+          {
+            "day": 23,
+            "pm25": 13.5,
+            "air_quality": "Good"
+          },
+          {
+            "day": 24,
+            "pm25": 15.62,
+            "air_quality": "Good"
+          },
+          {
+            "day": 25,
+            "pm25": 15.79,
+            "air_quality": "Good"
+          },
+          {
+            "day": 26,
+            "pm25": 15.11,
+            "air_quality": "Good"
+          },
+          {
+            "day": 27,
+            "pm25": 13.95,
+            "air_quality": "Good"
+          },
+          {
+            "day": 28,
+            "pm25": 14.4,
+            "air_quality": "Good"
+          },
+          {
+            "day": 29,
+            "pm25": 13.93,
+            "air_quality": "Good"
+          },
+          {
+            "day": 30,
+            "pm25": 14.07,
+            "air_quality": "Good"
+          },
+          {
+            "day": 31,
+            "pm25": 14.48,
+            "air_quality": "Good"
+          }
+        ]
+      },
+      {
+        "month": 11,
+        "month_name": "November",
+        "total_days": 30,
+        "average_pm25": 15.33,
+        "min_pm25": 12.76,
+        "max_pm25": 18.14,
+        "daily_measurements": [
+          {
+            "day": 1,
+            "pm25": 15.18,
+            "air_quality": "Good"
+          },
+          {
+            "day": 2,
+            "pm25": 16.1,
+            "air_quality": "Good"
+          },
+          {
+            "day": 3,
+            "pm25": 16.56,
+            "air_quality": "Good"
+          },
+          {
+            "day": 4,
+            "pm25": 17.18,
+            "air_quality": "Good"
+          },
+          {
+            "day": 5,
+            "pm25": 15.06,
+            "air_quality": "Good"
+          },
+          {
+            "day": 6,
+            "pm25": 14.47,
+            "air_quality": "Good"
+          },
+          {
+            "day": 7,
+            "pm25": 14.35,
+            "air_quality": "Good"
+          },
+          {
+            "day": 8,
+            "pm25": 15.28,
+            "air_quality": "Good"
+          },
+          {
+            "day": 9,
+            "pm25": 15.92,
+            "air_quality": "Good"
+          },
+          {
+            "day": 10,
+            "pm25": 18.14,
+            "air_quality": "Good"
+          },
+          {
+            "day": 11,
+            "pm25": 17.38,
+            "air_quality": "Good"
+          },
+          {
+            "day": 12,
+            "pm25": 15.11,
+            "air_quality": "Good"
+          },
+          {
+            "day": 13,
+            "pm25": 15.16,
+            "air_quality": "Good"
+          },
+          {
+            "day": 14,
+            "pm25": 15.1,
+            "air_quality": "Good"
+          },
+          {
+            "day": 15,
+            "pm25": 16.07,
+            "air_quality": "Good"
+          },
+          {
+            "day": 16,
+            "pm25": 14.65,
+            "air_quality": "Good"
+          },
+          {
+            "day": 17,
+            "pm25": 13.7,
+            "air_quality": "Good"
+          },
+          {
+            "day": 18,
+            "pm25": 14.13,
+            "air_quality": "Good"
+          },
+          {
+            "day": 19,
+            "pm25": 15.69,
+            "air_quality": "Good"
+          },
+          {
+            "day": 20,
+            "pm25": 16.11,
+            "air_quality": "Good"
+          },
+          {
+            "day": 21,
+            "pm25": 16.6,
+            "air_quality": "Good"
+          },
+          {
+            "day": 22,
+            "pm25": 16.4,
+            "air_quality": "Good"
+          },
+          {
+            "day": 23,
+            "pm25": 15.48,
+            "air_quality": "Good"
+          },
+          {
+            "day": 24,
+            "pm25": 13.07,
+            "air_quality": "Good"
+          },
+          {
+            "day": 25,
+            "pm25": 13.09,
+            "air_quality": "Good"
+          },
+          {
+            "day": 26,
+            "pm25": 12.76,
+            "air_quality": "Good"
+          },
+          {
+            "day": 27,
+            "pm25": 13.16,
+            "air_quality": "Good"
+          },
+          {
+            "day": 28,
+            "pm25": 16.19,
+            "air_quality": "Good"
+          },
+          {
+            "day": 29,
+            "pm25": 16.45,
+            "air_quality": "Good"
+          },
+          {
+            "day": 30,
+            "pm25": 15.45,
+            "air_quality": "Good"
+          }
+        ]
+      },
+      {
+        "month": 12,
+        "month_name": "December",
+        "total_days": 31,
+        "average_pm25": 19.8,
+        "min_pm25": 15.2,
+        "max_pm25": 26.17,
+        "daily_measurements": [
+          {
+            "day": 1,
+            "pm25": 15.44,
+            "air_quality": "Good"
+          },
+          {
+            "day": 2,
+            "pm25": 15.2,
+            "air_quality": "Good"
+          },
+          {
+            "day": 3,
+            "pm25": 15.89,
+            "air_quality": "Good"
+          },
+          {
+            "day": 4,
+            "pm25": 15.63,
+            "air_quality": "Good"
+          },
+          {
+            "day": 5,
+            "pm25": 17.09,
+            "air_quality": "Good"
+          },
+          {
+            "day": 6,
+            "pm25": 17.7,
+            "air_quality": "Good"
+          },
+          {
+            "day": 7,
+            "pm25": 17.57,
+            "air_quality": "Good"
+          },
+          {
+            "day": 8,
+            "pm25": 17.46,
+            "air_quality": "Good"
+          },
+          {
+            "day": 9,
+            "pm25": 18.69,
+            "air_quality": "Good"
+          },
+          {
+            "day": 10,
+            "pm25": 21.48,
+            "air_quality": "Good"
+          },
+          {
+            "day": 11,
+            "pm25": 23.17,
+            "air_quality": "Good"
+          },
+          {
+            "day": 12,
+            "pm25": 22.32,
+            "air_quality": "Good"
+          },
+          {
+            "day": 13,
+            "pm25": 19.28,
+            "air_quality": "Good"
+          },
+          {
+            "day": 14,
+            "pm25": 18.49,
+            "air_quality": "Good"
+          },
+          {
+            "day": 15,
+            "pm25": 20.12,
+            "air_quality": "Good"
+          },
+          {
+            "day": 16,
+            "pm25": 20.78,
+            "air_quality": "Good"
+          },
+          {
+            "day": 17,
+            "pm25": 20.19,
+            "air_quality": "Good"
+          },
+          {
+            "day": 18,
+            "pm25": 18.0,
+            "air_quality": "Good"
+          },
+          {
+            "day": 19,
+            "pm25": 18.05,
+            "air_quality": "Good"
+          },
+          {
+            "day": 20,
+            "pm25": 19.79,
+            "air_quality": "Good"
+          },
+          {
+            "day": 21,
+            "pm25": 22.69,
+            "air_quality": "Good"
+          },
+          {
+            "day": 22,
+            "pm25": 24.46,
+            "air_quality": "Good"
+          },
+          {
+            "day": 23,
+            "pm25": 26.17,
+            "air_quality": "Moderate"
+          },
+          {
+            "day": 24,
+            "pm25": 24.71,
+            "air_quality": "Good"
+          },
+          {
+            "day": 25,
+            "pm25": 21.99,
+            "air_quality": "Good"
+          },
+          {
+            "day": 26,
+            "pm25": 21.52,
+            "air_quality": "Good"
+          },
+          {
+            "day": 27,
+            "pm25": 21.74,
+            "air_quality": "Good"
+          },
+          {
+            "day": 28,
+            "pm25": 19.72,
+            "air_quality": "Good"
+          },
+          {
+            "day": 29,
+            "pm25": 18.86,
+            "air_quality": "Good"
+          },
+          {
+            "day": 30,
+            "pm25": 19.81,
+            "air_quality": "Good"
+          },
+          {
+            "day": 31,
+            "pm25": 19.85,
+            "air_quality": "Good"
+          }
+        ]
+      }
+    ],
+    "seasonal_summaries": {
+      "winter": {
+        "season": "Winter",
+        "total_days": 91,
+        "average_pm25": 23.61,
+        "min_pm25": 15.2,
+        "max_pm25": 32.5
+      },
+      "spring": {
+        "season": "Spring",
+        "total_days": 92,
+        "average_pm25": 20.88,
+        "min_pm25": 12.89,
+        "max_pm25": 29.92
+      },
+      "summer": {
+        "season": "Summer",
+        "total_days": 92,
+        "average_pm25": 12.27,
+        "min_pm25": 10.17,
+        "max_pm25": 13.65
+      },
+      "autumn": {
+        "season": "Autumn",
+        "total_days": 91,
+        "average_pm25": 13.6,
+        "min_pm25": 10.96,
+        "max_pm25": 18.14
+      }
+    },
+    "air_quality_distribution": {
+      "good": {
+        "days": 317,
+        "percentage": 86.6
+      },
+      "moderate": {
+        "days": 49,
+        "percentage": 13.4
+      },
+      "unhealthy_for_sensitive_groups": {
+        "days": 0,
+        "percentage": 0.0
+      },
+      "unhealthy": {
+        "days": 0,
+        "percentage": 0.0
+      },
+      "very_unhealthy": {
+        "days": 0,
+        "percentage": 0.0
+      }
+    },
+    "coordinates": {
+      "latitude": null,
+      "longitude": null,
+      "note": "Coordinates not available in source data"
+    }
+  }
+}

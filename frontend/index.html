@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/image/favicon.svg" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover" />
+
+  <!-- Mobile & Tablet Optimization -->
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="CitizenAIR" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <!-- Responsive Images -->
+  <meta name="apple-touch-icon-precomposed" href="/image/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/image/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
+
+  <!-- Primary Meta Tags -->
+  <title>CitizenAIR - ความรู้พลเมืองสู้ฝุ่น | แผนที่คุณภาพอากาศประเทศไทย</title>
+  <meta name="title" content="CitizenAIR - ความรู้พลเมืองสู้ฝุ่น | แผนที่คุณภาพอากาศประเทศไทย" />
+  <meta name="description"
+    content="ติดตามคุณภาพอากาศและข้อมูล PM2.5 ทั่วประเทศไทยแบบเรียลไทม์ พร้อมแผนที่แสดงระดับมลพิษทางอากาศในแต่ละอำเภอ และแนวทางแก้ไขปัญหาฝุ่นจากประชาชน" />
+  <meta name="keywords"
+    content="PM2.5, คุณภาพอากาศ, ฝุ่น, มลพิษ, ประเทศไทย, แผนที่อากาศ, CitizenAIR, อำเภอ, จังหวัด, สุขภาพ" />
+  <meta name="author" content="CitizenAIR Team" />
+  <meta name="robots" content="index, follow" />
+  <meta name="language" content="Thai" />
+  <meta name="revisit-after" content="1 day" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://citizenair.th/" />
+  <meta property="og:title" content="CitizenAIR - ความรู้พลเมืองสู้ฝุ่น | แผนที่คุณภาพอากาศประเทศไทย" />
+  <meta property="og:description"
+    content="ติดตามคุณภาพอากาศและข้อมูล PM2.5 ทั่วประเทศไทยแบบเรียลไทม์ พร้อมแผนที่แสดงระดับมลพิษทางอากาศในแต่ละอำเภอ และแนวทางแก้ไขปัญหาฝุ่นจากประชาชน" />
+  <meta property="og:image" content="https://citizenair.th/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="CitizenAIR - แผนที่คุณภาพอากาศประเทศไทย" />
+  <meta property="og:site_name" content="CitizenAIR" />
+  <meta property="og:locale" content="th_TH" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://citizenair.th/" />
+  <meta property="twitter:title" content="CitizenAIR - ความรู้พลเมืองสู้ฝุ่น | แผนที่คุณภาพอากาศประเทศไทย" />
+  <meta property="twitter:description"
+    content="ติดตามคุณภาพอากาศและข้อมูล PM2.5 ทั่วประเทศไทยแบบเรียลไทม์ พร้อมแผนที่แสดงระดับมลพิษทางอากาศในแต่ละอำเภอ และแนวทางแก้ไขปัญหาฝุ่นจากประชาชน" />
+  <meta property="twitter:image" content="https://citizenair.th/og-image.png" />
+  <meta property="twitter:image:alt" content="CitizenAIR - แผนที่คุณภาพอากาศประเทศไทย" />
+
+  <!-- Additional SEO Tags -->
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="/favicon.png" />
+
+  <!-- Apple Touch Icon -->
+  <link rel="apple-touch-icon" href="/favicon.png" />
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.json" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://citizenair.th/" />
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://services.arcgisonline.com" />
+
+  <!-- Responsive CSS -->
+  <style>
+    /* CSS Reset and Base Responsive Styles */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow-x: hidden;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+
+    #root {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Mobile First Responsive Breakpoints */
+    @media (max-width: 480px) {
+
+      /* Small Mobile styles */
+      html {
+        font-size: 14px;
+      }
+
+      body {
+        font-size: 14px;
+      }
+
+      .leaflet-container {
+        font-size: 12px;
+      }
+
+      button,
+      .clickable {
+        min-height: 48px;
+        min-width: 48px;
+        padding: 12px;
+        font-size: 16px;
+      }
+    }
+
+    @media (min-width: 481px) and (max-width: 768px) {
+
+      /* Large Mobile/Small Tablet styles */
+      html {
+        font-size: 15px;
+      }
+
+      button,
+      .clickable {
+        min-height: 44px;
+        min-width: 44px;
+      }
+    }
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+
+      /* Tablet styles */
+      html {
+        font-size: 15px;
+      }
+    }
+
+    @media (min-width: 1025px) {
+
+      /* Desktop styles */
+      html {
+        font-size: 16px;
+      }
+    }
+
+    /* Touch-friendly styles */
+    @media (hover: none) and (pointer: coarse) {
+
+      /* Mobile/touch devices */
+      button,
+      .clickable {
+        min-height: 44px;
+        min-width: 44px;
+      }
+    }
+
+    /* High DPI displays */
+    @media (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+
+      /* Retina/high-DPI optimizations */
+      body {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    }
+
+    /* Safe area for notched devices (iPhone X+) */
+    @supports (padding: max(0px)) {
+      body {
+        padding-left: max(0px, env(safe-area-inset-left));
+        padding-right: max(0px, env(safe-area-inset-right));
+      }
+    }
+
+    /* Dark mode preference */
+    @media (prefers-color-scheme: dark) {
+      html {
+        color-scheme: light;
+        /* Force light mode for air quality data visibility */
+      }
+    }
+
+    /* Reduced motion for accessibility */
+    @media (prefers-reduced-motion: reduce) {
+
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        background: white !important;
+        color: black !important;
+      }
+
+      .no-print {
+        display: none !important;
+      }
+    }
+  </style>
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "CitizenAIR",
+    "alternateName": "ความรู้พลเมืองสู้ฝุ่น",
+    "description": "แอปพลิเคชันติดตามคุณภาพอากาศและข้อมูล PM2.5 ทั่วประเทศไทยแบบเรียลไทม์",
+    "url": "https://citizenair.th/",
+    "applicationCategory": "Environmental Monitoring",
+    "operatingSystem": "Web Browser",
+    "browserRequirements": "Modern web browser with JavaScript enabled",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "THB"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "CitizenAIR Team"
+    },
+    "inLanguage": "th-TH",
+    "about": {
+      "@type": "Thing",
+      "name": "Air Quality Monitoring",
+      "description": "การติดตามคุณภาพอากาศและระดับ PM2.5 ในประเทศไทย"
+    },
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "Thai Citizens",
+      "geographicArea": {
+        "@type": "Country",
+        "name": "Thailand"
+      }
+    }
+  }
+  </script>
+
+  <!-- Service Worker Registration -->
+  <script>
+    // Register service worker for offline functionality
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then((registration) => {
+            console.log('SW registered: ', registration);
+          })
+          .catch((registrationError) => {
+            console.log('SW registration failed: ', registrationError);
+          });
+      });
+    }
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

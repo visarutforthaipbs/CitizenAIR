@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ไม่พบหน้านี้ - CitizenAIR</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'DB Helvethaica X', system-ui, -apple-system, sans-serif;
+            background: #ffffff;
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 500px;
+        }
+
+        .error-code {
+            font-size: 8rem;
+            font-weight: 900;
+            color: #fe5000;
+            margin-bottom: 1rem;
+            opacity: 0.8;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+            color: #666;
+        }
+
+        .home-button {
+            display: inline-block;
+            background: #fe5000;
+            color: white;
+            padding: 12px 32px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            border: 2px solid #fe5000;
+        }
+
+        .home-button:hover {
+            background: white;
+            color: #fe5000;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(254, 80, 0, 0.2);
+        }
+
+        .air-quality-note {
+            margin-top: 3rem;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            border-left: 4px solid #fe5000;
+        }
+
+        .air-quality-note h3 {
+            color: #fe5000;
+            margin-bottom: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .error-code {
+                font-size: 6rem;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="error-code">404</div>
+        <h1>ไม่พบหน้าที่คุณกำลังมองหา</h1>
+        <p>
+            ขออภัย หน้าที่คุณพยายามเข้าถึงอาจถูกย้าย ลบ หรือไม่เคยมีอยู่จริง
+            <br>
+            กลับไปที่หน้าแรกเพื่อดูข้อมูลคุณภาพอากาศล่าสุด
+        </p>
+
+        <a href="/" class="home-button">
+            กลับหน้าแรก
+        </a>
+
+        <div class="air-quality-note">
+            <h3>💨 เคล็ดลับ CitizenAIR</h3>
+            <p style="margin: 0; color: #333; font-size: 0.9rem;">
+                ขณะรอ ลองเช็คคุณภาพอากาศในพื้นที่ของคุณกันเถอะ!
+                อย่าลืมป้องกันตัวเองเมื่อ PM2.5 สูง
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

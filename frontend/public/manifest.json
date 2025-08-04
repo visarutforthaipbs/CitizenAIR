@@ -1,0 +1,71 @@
+{
+  "name": "CitizenAIR - ความรู้พลเมืองสู้ฝุ่น",
+  "short_name": "CitizenAIR",
+  "description": "ติดตามคุณภาพอากาศและข้อมูล PM2.5 ทั่วประเทศไทยแบบเรียลไทม์",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "orientation": "any",
+  "scope": "/",
+  "lang": "th",
+  "dir": "ltr",
+  "categories": ["utilities", "health", "environment"],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "แผนที่คุณภาพอากาศ",
+      "short_name": "แผนที่",
+      "description": "ดูแผนที่คุณภาพอากาศแบบเรียลไทม์",
+      "url": "/map",
+      "icons": [
+        {
+          "src": "/favicon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "วิธีแก้ปัญหาฝุ่น",
+      "short_name": "แก้ปัญหา",
+      "description": "ดูวิธีแก้ปัญหาฝุ่นจากประชาชน",
+      "url": "/solutions",
+      "icons": [
+        {
+          "src": "/favicon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "CitizenAIR แผนที่คุณภาพอากาศ"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "CitizenAIR มือถือ"
+    }
+  ],
+  "features": ["cross-platform", "accessibility", "offline"]
+}

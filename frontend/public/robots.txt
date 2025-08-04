@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://citizenair.th/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Disallow any admin or sensitive areas (if any in future)
+# Disallow: /admin
+# Disallow: /api
+
+# Allow all air quality and map content
+Allow: /
+Allow: /map
+Allow: /solutions
+Allow: /data
+
+# Allow social media bots for better sharing
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /

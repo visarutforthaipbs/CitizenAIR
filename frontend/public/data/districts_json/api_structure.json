@@ -1,0 +1,22 @@
+{
+  "api_structure": {
+    "description": "How to use the district files in a web application",
+    "base_url": "your-domain.com/data/districts/",
+    "endpoints": {
+      "districts_index": "districts_index.json - List all available districts",
+      "districts_summary": "../thailand_pm25_districts_summary.json - All districts without daily data (~300KB)",
+      "individual_district": "{district_name}_{province_name}.json - Full daily data for one district (~20KB)"
+    },
+    "usage_examples": {
+      "get_all_districts": "GET districts_index.json",
+      "get_summary_data": "GET ../thailand_pm25_districts_summary.json",
+      "get_district_details": "GET ดอนเมือง_กรุงเทพมหานคร.json",
+      "search_by_province": "Filter districts_index.json by province_name"
+    },
+    "file_sizes": {
+      "districts_index.json": "~50KB - Just the list and metadata",
+      "thailand_pm25_districts_summary.json": "~300KB - All districts, no daily data",
+      "individual_district_files": "~20KB each - Full daily data for one district"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "description": "5-year average PM2.5 data for Thailand districts",
+    "dataSource": "Thailand Pollution Control Department",
+    "timeRange": "2019-2024",
+    "unit": "µg/m³",
+    "lastUpdated": "2024-01-30"
+  },
+  "districts": [
+    {
+      "districtName": "เขตบางรัก",
+      "province": "กรุงเทพมหานคร",
+      "coordinates": {
+        "lat": 13.725,
+        "lng": 100.52
+      },
+      "pm25_5yr_avg": 85,
+      "yearlyData": [
+        { "year": 2019, "avg": 82, "max": 156, "min": 28 },
+        { "year": 2020, "avg": 75, "max": 142, "min": 22 },
+        { "year": 2021, "avg": 88, "max": 167, "min": 31 },
+        { "year": 2022, "avg": 91, "max": 174, "min": 35 },
+        { "year": 2023, "avg": 89, "max": 162, "min": 29 }
+      ],
+      "monthlyTrend": [
+        { "month": 1, "avg": 105 },
+        { "month": 2, "avg": 112 },
+        { "month": 3, "avg": 98 },
+        { "month": 4, "avg": 87 },
+        { "month": 5, "avg": 65 },
+        { "month": 6, "avg": 58 },
+        { "month": 7, "avg": 62 },
+        { "month": 8, "avg": 68 },
+        { "month": 9, "avg": 72 },
+        { "month": 10, "avg": 78 },
+        { "month": 11, "avg": 95 },
+        { "month": 12, "avg": 108 }
+      ]
+    },
+    {
+      "districtName": "เขตปทุมวัน",
+      "province": "กรุงเทพมหานคร",
+      "coordinates": {
+        "lat": 13.735,
+        "lng": 100.525
+      },
+      "pm25_5yr_avg": 78,
+      "yearlyData": [
+        { "year": 2019, "avg": 76, "max": 145, "min": 25 },
+        { "year": 2020, "avg": 72, "max": 138, "min": 20 },
+        { "year": 2021, "avg": 82, "max": 158, "min": 28 },
+        { "year": 2022, "avg": 84, "max": 162, "min": 32 },
+        { "year": 2023, "avg": 76, "max": 148, "min": 24 }
+      ],
+      "monthlyTrend": [
+        { "month": 1, "avg": 98 },
+        { "month": 2, "avg": 105 },
+        { "month": 3, "avg": 92 },
+        { "month": 4, "avg": 82 },
+        { "month": 5, "avg": 60 },
+        { "month": 6, "avg": 52 },
+        { "month": 7, "avg": 55 },
+        { "month": 8, "avg": 62 },
+        { "month": 9, "avg": 68 },
+        { "month": 10, "avg": 74 },
+        { "month": 11, "avg": 88 },
+        { "month": 12, "avg": 102 }
+      ]
+    },
+    {
+      "districtName": "เขตวัฒนา",
+      "province": "กรุงเทพมหานคร",
+      "coordinates": {
+        "lat": 13.725,
+        "lng": 100.535
+      },
+      "pm25_5yr_avg": 72,
+      "yearlyData": [
+        { "year": 2019, "avg": 70, "max": 132, "min": 22 },
+        { "year": 2020, "avg": 68, "max": 128, "min": 18 },
+        { "year": 2021, "avg": 75, "max": 142, "min": 25 },
+        { "year": 2022, "avg": 78, "max": 148, "min": 28 },
+        { "year": 2023, "avg": 69, "max": 135, "min": 21 }
+      ],
+      "monthlyTrend": [
+        { "month": 1, "avg": 92 },
+        { "month": 2, "avg": 98 },
+        { "month": 3, "avg": 85 },
+        { "month": 4, "avg": 75 },
+        { "month": 5, "avg": 55 },
+        { "month": 6, "avg": 48 },
+        { "month": 7, "avg": 52 },
+        { "month": 8, "avg": 58 },
+        { "month": 9, "avg": 62 },
+        { "month": 10, "avg": 68 },
+        { "month": 11, "avg": 82 },
+        { "month": 12, "avg": 95 }
+      ]
+    },
+    {
+      "districtName": "อำเภอเมืองเชียงใหม่",
+      "province": "เชียงใหม่",
+      "coordinates": {
+        "lat": 18.8,
+        "lng": 99.0
+      },
+      "pm25_5yr_avg": 125,
+      "yearlyData": [
+        { "year": 2019, "avg": 118, "max": 285, "min": 15 },
+        { "year": 2020, "avg": 108, "max": 265, "min": 12 },
+        { "year": 2021, "avg": 132, "max": 298, "min": 18 },
+        { "year": 2022, "avg": 142, "max": 315, "min": 22 },
+        { "year": 2023, "avg": 125, "max": 288, "min": 16 }
+      ],
+      "monthlyTrend": [
+        { "month": 1, "avg": 185 },
+        { "month": 2, "avg": 225 },
+        { "month": 3, "avg": 268 },
+        { "month": 4, "avg": 195 },
+        { "month": 5, "avg": 85 },
+        { "month": 6, "avg": 45 },
+        { "month": 7, "avg": 52 },
+        { "month": 8, "avg": 65 },
+        { "month": 9, "avg": 78 },
+        { "month": 10, "avg": 95 },
+        { "month": 11, "avg": 125 },
+        { "month": 12, "avg": 165 }
+      ]
+    },
+    {
+      "districtName": "อำเภอหางดง",
+      "province": "เชียงใหม่",
+      "coordinates": {
+        "lat": 18.72,
+        "lng": 98.97
+      },
+      "pm25_5yr_avg": 115,
+      "yearlyData": [
+        { "year": 2019, "avg": 108, "max": 275, "min": 12 },
+        { "year": 2020, "avg": 98, "max": 255, "min": 10 },
+        { "year": 2021, "avg": 122, "max": 288, "min": 15 },
+        { "year": 2022, "avg": 132, "max": 305, "min": 18 },
+        { "year": 2023, "avg": 115, "max": 278, "min": 13 }
+      ],
+      "monthlyTrend": [
+        { "month": 1, "avg": 175 },
+        { "month": 2, "avg": 215 },
+        { "month": 3, "avg": 258 },
+        { "month": 4, "avg": 185 },
+        { "month": 5, "avg": 75 },
+        { "month": 6, "avg": 35 },
+        { "month": 7, "avg": 42 },
+        { "month": 8, "avg": 55 },
+        { "month": 9, "avg": 68 },
+        { "month": 10, "avg": 85 },
+        { "month": 11, "avg": 115 },
+        { "month": 12, "avg": 155 }
+      ]
+    },
+    {
+      "districtName": "อำเภอเมืองลำพูน",
+      "province": "ลำพูน",
+      "coordinates": {
+        "lat": 18.57,
+        "lng": 99.02
+      },
+      "pm25_5yr_avg": 98,
+      "yearlyData": [
+        { "year": 2019, "avg": 92, "max": 225, "min": 8 },
+        { "year": 2020, "avg": 85, "max": 208, "min": 6 },
+        { "year": 2021, "avg": 105, "max": 245, "min": 12 },
+        { "year": 2022, "avg": 112, "max": 258, "min": 15 },
+        { "year": 2023, "avg": 96, "max": 232, "min": 9 }
+      ],
+      "monthlyTrend": [
+        { "month": 1, "avg": 145 },
+        { "month": 2, "avg": 175 },
+        { "month": 3, "avg": 218 },
+        { "month": 4, "avg": 155 },
+        { "month": 5, "avg": 65 },
+        { "month": 6, "avg": 28 },
+        { "month": 7, "avg": 35 },
+        { "month": 8, "avg": 45 },
+        { "month": 9, "avg": 58 },
+        { "month": 10, "avg": 75 },
+        { "month": 11, "avg": 105 },
+        { "month": 12, "avg": 135 }
+      ]
+    }
+  ]
+}
