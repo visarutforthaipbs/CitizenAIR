@@ -136,7 +136,6 @@ const MapPage = memo(function MapPage() {
         // Try different possible filenames for neighboring countries
         const possibleFiles = [
           "/southeast-asia-boundaries.geojson",
-          "/SEA-boundary-country.geojson",
           "/country_boundary.json",
         ];
 

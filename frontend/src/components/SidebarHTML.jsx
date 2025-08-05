@@ -97,21 +97,18 @@ const SidebarHTML = ({ selectedDistrict, onWordCloudUpdate }) => {
 
     setIsSubmitting(true);
     try {
-      const response = await fetch(
-        `${API_BASE_URL}/api/crowdsource/ideas`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            district: selectedDistrict.name,
-            province: selectedDistrict.province,
-            idea: newIdea.trim(),
-            author: authorName.trim() || "ไม่ระบุชื่อ",
-          }),
-        }
-      );
+      const response = await fetch(`${API_BASE_URL}/api/crowdsource/ideas`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          district: selectedDistrict.name,
+          province: selectedDistrict.province,
+          idea: newIdea.trim(),
+          author: authorName.trim() || "ไม่ระบุชื่อ",
+        }),
+      });
 
       if (response.ok) {
         setNewIdea("");
