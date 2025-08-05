@@ -8,6 +8,7 @@ import {
   getPm25Color,
   formatPm25Value,
 } from "../utils/pm25Api";
+import { API_BASE_URL } from "../config/constants";
 
 const SidebarHTML = ({ selectedDistrict, onWordCloudUpdate }) => {
   const [crowdsourceData, setCrowdsourceData] = useState({
@@ -29,7 +30,7 @@ const SidebarHTML = ({ selectedDistrict, onWordCloudUpdate }) => {
     async (districtName) => {
       try {
         const response = await fetch(
-          `http://localhost:5001/api/crowdsource/ideas/${encodeURIComponent(
+          `${API_BASE_URL}/api/crowdsource/ideas/${encodeURIComponent(
             districtName
           )}`
         );
@@ -97,7 +98,7 @@ const SidebarHTML = ({ selectedDistrict, onWordCloudUpdate }) => {
     setIsSubmitting(true);
     try {
       const response = await fetch(
-        "http://localhost:5001/api/crowdsource/ideas",
+        `${API_BASE_URL}/api/crowdsource/ideas`,
         {
           method: "POST",
           headers: {

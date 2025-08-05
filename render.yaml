@@ -13,8 +13,8 @@ services:
       - key: PORT
         generateValue: true
       - key: NOTION_TOKEN
-        sync: false  # You'll need to set this manually in Render dashboard
+        sync: false # You'll need to set this manually in Render dashboard
       - key: NOTION_DATABASE_ID
-        sync: false  # You'll need to set this manually in Render dashboard
+        sync: false # You'll need to set this manually in Render dashboard
       - key: MONGODB_URI
-        sync: false  # You'll need to set this manually in Render dashboard
+        sync: false # You'll need to set this manually in Render dashboard
